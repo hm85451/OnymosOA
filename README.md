@@ -21,8 +21,8 @@ This project implements a simple stock order matching system. The system uses ha
   - **Worst Case**: O(N) (If the order needs to be inserted at the correct position in a sorted array, requiring a traversal of the list)
   
 - **Match Order**:
-  - **Best Case**: O(1) (If a match is found immediately)
-  - **Worst Case**: O(N) (If the entire list of buy or sell orders needs to be checked)
+  - **Best Case**: O(1) (If no buy order is found)
+  - **Worst Case**: O(N) (If the entire list of buy needs to be checked)
 
 ## How to Run
 
